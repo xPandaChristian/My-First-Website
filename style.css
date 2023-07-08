@@ -1,0 +1,42 @@
+body {
+    justify-content:center;
+    
+    background: linear-gradient(320deg,#eb92be, #ffef78, #63c9b4);
+    display: flex;
+    height: 1789px;
+    position: relative;
+    top: 360px;
+    left: 350;
+    font: size 200px;
+  }
+  .buttons {
+    box-sizing: border-box;
+    width: 440px;
+    height: 840px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background-color: rgba(255, 255, 255, 0.30); /* set the background to a transparent white color */
+    border: #63c9b4;
+    border-radius: 16px;
+
+  }
+.box {
+    height: 42px;
+    font-size: 40px;
+    display: flex;
+    
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: white
+    
+    
+    
+    
+}
+.buttons button {
+    height: 65px;
+    width: 65px;
+    border-radius: 16px;
+    background:  lightgreen;
+  }
+
