@@ -13,9 +13,8 @@
     </div>
 
     <div>
-      <button id="smile">🙂</button>
+      <button id="C">C</button>
       <button id="arrow">&larr;</button>
-      <button id="grin">😁</button>
       <button id="plus">&plus;</button>
     </div>
     <button id="seven">7</button>
@@ -36,24 +35,22 @@
       <button id="three">3</button>
       <button id="divide">&divide;</button>
     </div>
-
     <button id="zero">0</button>
     <button id="equals">=</button>
-
   </div>
 
   <script>
     // Event listeners for each button
-    document.getElementById('smile').addEventListener('click', function() {
-      appendContent('🙂');
+    function removeContent() {
+      var contentElement = document.getElementById('content');
+      contentElement.innerHTML = '';
+}
+    document.getElementById('C').addEventListener('click', function() {
+      removeContent();
     });
 
     document.getElementById('arrow').addEventListener('click', function() {
-      appendContent('&larr;');
-    });
-
-    document.getElementById('grin').addEventListener('click', function() {
-      appendContent('😁');
+      removeContent();
     });
 
     document.getElementById('plus').addEventListener('click', function() {
@@ -130,7 +127,7 @@
   </script>
 
   <style>
-    /* Add your styles here */
+
   </style>
 </body>
 </html>
